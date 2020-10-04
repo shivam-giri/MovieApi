@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: rgb(131,58,180);
+    background: -moz-linear-gradient(90deg, rgb(211, 186, 228) 6%, rgb(164, 235, 209) 41%, rgb(243, 208, 160) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(216, 203, 224) 6%, rgb(185, 245, 223) 41%, rgb(236, 209, 170) 100%);
+    background: linear-gradient(90deg, rgb(207, 195, 214) 6%, rgb(183, 243, 221) 41%, rgb(250, 218, 174) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.custom_btn{
+    right: 0;
+    top: 0px;
+    border-radius: 0px 4px 4px 0px;
+}
+#template{
+    display: flex;
+    flex-wrap: wrap;
+}
+.custom_card{
+    padding: 0;
+    display: flex;
+    justify-content: space-around !important;
+}
